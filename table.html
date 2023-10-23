@@ -50,9 +50,8 @@ $(document).ready(function(){
 });
 
 
-// ソートのための引数追加
+
 function makeBMSTable(info, mark, order) {
-	// orderが未指定の場合はnull
 	if(typeof order === 'undefined'){
 		order = null;
 	}
@@ -64,7 +63,6 @@ function makeBMSTable(info, mark, order) {
 
 	// ソート
 	if(order != "" && order != null){
-		// herder.jsonにsortが存在する場合は指定順->タイトル順にソート
 		
 		var orderAry = [];
 		for(var l = 0; l < order.length; l++){
@@ -93,7 +91,6 @@ function makeBMSTable(info, mark, order) {
 			delete info[k]["_index"];
 		}
 	} else {
-		// そうでない場合はレベル順->タイトル順にソート
 		info.sort(
 			function(a,b){
 				var aLv = a["level"].toString();
@@ -226,8 +223,6 @@ function makeBMSTable(info, mark, order) {
     }
 
     
-    // 最後の区切り処理
-	// マークが抜け落ちてたので追加
     if (obj_sep != null) {
         obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "譜面)</b></td>");
     }
