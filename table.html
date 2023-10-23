@@ -1,12 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="ja">
+<!DOCTYPE html>
 
 <head>
-<title>UE“ï?“x•\/title>
+<title>UE Difficulty table</title>
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
-<meta name="bmstable" content="./header.json" /> <!--@“Ç‚İ‚Ş“ïˆÕ“x•\‚Ìƒwƒbƒ_ƒtƒ@ƒCƒ‹‚ğ‚±‚±‚Éw’è@-->
+<meta name="bmstable" content="./header.json" /> <!--ã€€èª­ã¿è¾¼ã‚€é›£æ˜“åº¦è¡¨ã®ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã“ã“ã«æŒ‡å®šã€€-->
 <link href="style/style.css" rel="stylesheet" type="text/css" media="screen,print" />
 <script src="style/jquery-2.0.2.min.js"></script>
 </head>
@@ -14,13 +13,13 @@
 <body>
 
 <center>
-<strong><span style="font-size: 24pt;">UE“ï?“x•\</span></strong><br>
-<a href="index.html">TOP‚É–ß‚é</a><br>
+<strong><span style="font-size: 24pt;">UE Difficulty Table</span></strong><br>
+<a href="index.html">Go to Top</a><br>
 </center>
 
 
 <div class="tableflame">
-<table align="center" cellspacing="1" cellpadding=2@border="0" bgcolor="#000000" id="table_int">
+<table align="center" cellspacing="1" cellpadding=2ã€€border="0" bgcolor="#000000" id="table_int">
 </table>
 </div>
 
@@ -39,7 +38,7 @@ function menu(tName){
 $(document).ready(function(){
 	$.getJSON($("meta[name=bmstable]").attr("content"), function(header){
 		$.getJSON(header.data_url, function(information){
-			// header‚Ìsort—L–³‚Å•ªŠò
+			// headerã®sortæœ‰ç„¡ã§åˆ†å²
 			if(header["level_order"]){
 				makeBMSTable(information,header.symbol,header["level_order"]);
 			} else {
@@ -50,9 +49,9 @@ $(document).ready(function(){
 });
 
 
-// ƒ\[ƒg‚Ì‚½‚ß‚Ìˆø”’Ç‰Á
+// ã‚½ãƒ¼ãƒˆã®ãŸã‚ã®å¼•æ•°è¿½åŠ 
 function makeBMSTable(info, mark, order) {
-	// order‚ª–¢w’è‚Ìê‡‚Ínull
+	// orderãŒæœªæŒ‡å®šã®å ´åˆã¯null
 	if(typeof order === 'undefined'){
 		order = null;
 	}
@@ -62,9 +61,9 @@ function makeBMSTable(info, mark, order) {
     var count = 0;
     var obj = $("#table_int");
 
-	// ƒ\[ƒg
+	// ã‚½ãƒ¼ãƒˆ
 	if(order != "" && order != null){
-		// herder.json‚Ésort‚ª‘¶İ‚·‚éê‡‚Íw’è‡->ƒ^ƒCƒgƒ‹‡‚Éƒ\[ƒg
+		// herder.jsonã«sortãŒå­˜åœ¨ã™ã‚‹å ´åˆã¯æŒ‡å®šé †->ã‚¿ã‚¤ãƒˆãƒ«é †ã«ã‚½ãƒ¼ãƒˆ
 		
 		var orderAry = [];
 		for(var l = 0; l < order.length; l++){
@@ -86,14 +85,14 @@ function makeBMSTable(info, mark, order) {
 			} else if( a["title"].toLowerCase() > b["title"].toLowerCase() ){
 				return 1;
 			} else {
-	@	@@	return 0;
+	ã€€	ã€€ã€€	return 0;
 			}
 		});
 		for(var k=0; k < info.length; k++){
 			delete info[k]["_index"];
 		}
 	} else {
-		// ‚»‚¤‚Å‚È‚¢ê‡‚ÍƒŒƒxƒ‹‡->ƒ^ƒCƒgƒ‹‡‚Éƒ\[ƒg
+		// ãã†ã§ãªã„å ´åˆã¯ãƒ¬ãƒ™ãƒ«é †->ã‚¿ã‚¤ãƒˆãƒ«é †ã«ã‚½ãƒ¼ãƒˆ
 		info.sort(
 			function(a,b){
 				var aLv = a["level"].toString();
@@ -109,29 +108,29 @@ function makeBMSTable(info, mark, order) {
 				} else if( a["title"].toLowerCase() > b["title"].toLowerCase() ){
 					return 1;
 				} else {
-		@	@@	return 0;
+		ã€€	ã€€ã€€	return 0;
 				}
 			}
 		);
 	}
 	
-    // •\‚ÌƒNƒŠƒA
+    // è¡¨ã®ã‚¯ãƒªã‚¢
     obj.html("");
-    $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>“®‰æ</td><td align='center'>•ˆ–Ê</td><td colspan='2' align='center'>beatoraja IR</td><td align='center'>ƒ^ƒCƒgƒ‹</td><td align='center'>–{‘Ì</td><td align='center'>·•ª</td><td align='center'>ƒRƒƒ“ƒg</td></tr>").appendTo(obj);
+    $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>å‹•ç”»</td><td align='center'>è­œé¢</td><td colspan='2' align='center'>beatoraja IR</td><td align='center'>ã‚¿ã‚¤ãƒˆãƒ«</td><td align='center'>æœ¬ä½“</td><td align='center'>å·®åˆ†</td><td align='center'>ã‚³ãƒ¡ãƒ³ãƒˆ</td></tr>").appendTo(obj);
     var obj_sep = null;
     for (var i = 0; i < info.length; i++) {
-        // “ï“x‚²‚Æ‚Ì‹æØ‚è
+        // é›£åº¦ã”ã¨ã®åŒºåˆ‡ã‚Š
         if (x != info[i].level) {
-            // ‘O‚Ì‹æØ‚è‚É•ˆ–Ê”A•½‹Ï–§“x‚ğ’Ç‰Á
+            // å‰ã®åŒºåˆ‡ã‚Šã«è­œé¢æ•°ã€å¹³å‡å¯†åº¦ã‚’è¿½åŠ 
           	if (obj_sep != null) {
-                obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "•ˆ–Ê)</b></td>");
+                obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "è­œé¢)</b></td>");
             }
             obj_sep = $("<tr class='tr_separate' id='" + mark + info[i].level + "'></tr>");
             obj_sep.appendTo(obj);
             count = 0;
             x = info[i].level;
         }
-        // –{•¶
+        // æœ¬æ–‡
         var str = $("<tr class='tr_normal'></tr>");
 
         if(info[i].state == 1) {
@@ -154,12 +153,12 @@ function makeBMSTable(info, mark, order) {
 
         }
 
-        // ƒŒƒxƒ‹•\‹L
+        // ãƒ¬ãƒ™ãƒ«è¡¨è¨˜
         $("<td width='6%'>" + mark + x + "</td>").appendTo(str);
-        // “®‰æ
+        // å‹•ç”»
 		if(info[i].video1 != "" && info[i].video1 != null){
-			// ƒjƒRƒjƒR
-			$("<td width='1%' align='center'><a href='http://www.nicovideo.jp/watch/sm" + info[i].video1 + "' target='_blank'><img src='style/nico.gif' border='0' alt='ƒjƒRƒjƒR“®‰æ' /></a></td>").appendTo(str);
+			// ãƒ‹ã‚³ãƒ‹ã‚³
+			$("<td width='1%' align='center'><a href='http://www.nicovideo.jp/watch/sm" + info[i].video1 + "' target='_blank'><img src='style/nico.gif' border='0' alt='ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»' /></a></td>").appendTo(str);
 		} else if(info[i].video2 != "" && info[i].video2 != null){
 			// YouTube
 			$("<td width='1%' align='center'><a href='http://www.youtube.com/watch?v=" + info[i].video2 + "' target='_blank'><img src='style/youtube.gif' border='0' alt='Youtube' /></a></td>").appendTo(str);
@@ -169,18 +168,18 @@ function makeBMSTable(info, mark, order) {
 		} else {
         	$("<td width='1%'></td>").appendTo(str);
 		}
-@@@@// •ˆ–Ê‰æ‘œ
-@@@@$("<td width='1%' align='center'><a href='http://www.ribbit.xyz/bms/score/view?p=1&md5=" + info[i].md5 + "' target='_blank'>ô</a></td>").appendTo(str);
+ã€€ã€€ã€€ã€€// è­œé¢ç”»åƒ
+ã€€ã€€ã€€ã€€$("<td width='1%' align='center'><a href='http://www.ribbit.xyz/bms/score/view?p=1&md5=" + info[i].md5 + "' target='_blank'>â™ª</a></td>").appendTo(str);
 
-@@@@// Mocha Repository
-@@@@$("<td width='1%' align='center'><a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'><img src='/style/mochair_logo.gif' border='0' alt='Mocha Repository' /></a></td>").appendTo(str);
+ã€€ã€€ã€€ã€€// Mocha Repository
+ã€€ã€€ã€€ã€€$("<td width='1%' align='center'><a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'><img src='/style/mochair_logo.gif' border='0' alt='Mocha Repository' /></a></td>").appendTo(str);
 
-@@@@// MinIR
-@@@@$("<td width='1%' align='center'><a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0' target='_blank'><img src='/style/minir_logo.gif' border='0' alt='MinIR' /></a></td>").appendTo(str); <!-- /0 ‚ğ /1 /2 ‚É•ÏX‚·‚é‚Æ CN,HCN ‚ÌIRƒy[ƒW‚ÉƒŠƒ“ƒN‚³‚ê‚Ü‚· -->
+ã€€ã€€ã€€ã€€// MinIR
+ã€€ã€€ã€€ã€€$("<td width='1%' align='center'><a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0' target='_blank'><img src='/style/minir_logo.gif' border='0' alt='MinIR' /></a></td>").appendTo(str); <!-- /0 ã‚’ /1 /2 ã«å¤‰æ›´ã™ã‚‹ã¨ CN,HCN ã®IRãƒšãƒ¼ã‚¸ã«ãƒªãƒ³ã‚¯ã•ã‚Œã¾ã™ -->
 
-        // ƒ^ƒCƒgƒ‹
+        // ã‚¿ã‚¤ãƒˆãƒ«
         $("<td width='20%'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
-        // ƒA[ƒeƒBƒXƒg
+        // ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆ
         var astr = "";
         if(info[i].url != "" && info[i].url != null) {
         	if(info[i].artist != "" && info[i].artist != null) {
@@ -205,7 +204,7 @@ function makeBMSTable(info, mark, order) {
         	}
         }
         $("<td width='20%'>" + astr + "</td>").appendTo(str);
-        // ·•ª
+        // å·®åˆ†
         if(info[i].url_diff != "" && info[i].url_diff != null) {
         	if(info[i].name_diff != "" && info[i].name_diff != null) {
 	        $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
@@ -219,17 +218,17 @@ function makeBMSTable(info, mark, order) {
 	        $("<td width='15%'></td>").appendTo(str);
         	}
         }
-        // ƒRƒƒ“ƒg
+        // ã‚³ãƒ¡ãƒ³ãƒˆ
         $("<td width='25%'>" + info[i].comment + "</div></td>").appendTo(str);
         str.appendTo(obj);
         count++;
     }
 
     
-    // ÅŒã‚Ì‹æØ‚èˆ—
-	// ƒ}[ƒN‚ª”²‚¯—‚¿‚Ä‚½‚Ì‚Å’Ç‰Á
+    // æœ€å¾Œã®åŒºåˆ‡ã‚Šå‡¦ç†
+	// ãƒãƒ¼ã‚¯ãŒæŠœã‘è½ã¡ã¦ãŸã®ã§è¿½åŠ 
     if (obj_sep != null) {
-        obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "•ˆ–Ê)</b></td>");
+        obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "è­œé¢)</b></td>");
     }
 }
 </script>
