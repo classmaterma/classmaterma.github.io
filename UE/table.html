@@ -170,10 +170,10 @@ function makeBMSTable(info, mark, order) {
 　　　　$("<td width='1%' align='center'><a href='http://www.ribbit.xyz/bms/score/view?p=1&md5=" + info[i].md5 + "' target='_blank'>♪</a></td>").appendTo(str);
 
 　　　　// Mocha Repository
-　　　　$("<td width='1%' align='center'><a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'><img src='style/mochair_logo.gif' border='0' alt='Mocha Repository' /></a></td>").appendTo(str);
+　　　　$("<td width='1%' align='center'><a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'><img src='/style/mochair_logo.gif' border='0' alt='Mocha Repository' /></a></td>").appendTo(str);
 
 　　　　// MinIR
-　　　　$("<td width='1%' align='center'><a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0' target='_blank'><img src='style/minir_logo.gif' border='0' alt='MinIR' /></a></td>").appendTo(str); <!-- /0 を /1 /2 に変更すると CN,HCN のIRページにリンクされます -->
+　　　　$("<td width='1%' align='center'><a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0' target='_blank'><img src='/style/minir_logo.gif' border='0' alt='MinIR' /></a></td>").appendTo(str); <!-- /0 を /1 /2 に変更すると CN,HCN のIRページにリンクされます -->
 
         // タイトル
         $("<td width='20%'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
