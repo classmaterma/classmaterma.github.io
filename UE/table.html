@@ -39,7 +39,6 @@ function menu(tName){
 $(document).ready(function(){
 	$.getJSON($("meta[name=bmstable]").attr("content"), function(header){
 		$.getJSON(header.data_url, function(information){
-			// headerのsort有無で分岐
 			if(header["level_order"]){
 				makeBMSTable(information,header.symbol,header["level_order"]);
 			} else {
@@ -61,7 +60,6 @@ function makeBMSTable(info, mark, order) {
     var count = 0;
     var obj = $("#table_int");
 
-	// ソート
 	if(order != "" && order != null){
 		
 		var orderAry = [];
@@ -112,14 +110,11 @@ function makeBMSTable(info, mark, order) {
 		);
 	}
 	
-    // 表のクリア
     obj.html("");
     $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>Video</td><td align='center'>Pattern</td><td colspan='2' align='center'>beatoraja IR</td><td align='center'>Title</td><td align='center'>Song</td><td align='center'>Sabun Maker</td><td align='center'>Comment</td></tr>").appendTo(obj);
     var obj_sep = null;
     for (var i = 0; i < info.length; i++) {
-        // 難度ごとの区切り
         if (x != info[i].level) {
-            // 前の区切りに譜面数、平均密度を追加
           	if (obj_sep != null) {
                 obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "songs)</b></td>");
             }
@@ -128,7 +123,6 @@ function makeBMSTable(info, mark, order) {
             count = 0;
             x = info[i].level;
         }
-        // 本文
         var str = $("<tr class='tr_normal'></tr>");
 
         if(info[i].state == 1) {
@@ -151,14 +145,10 @@ function makeBMSTable(info, mark, order) {
 
         }
 
-        // レベル表記
         $("<td width='6%'>" + mark + x + "</td>").appendTo(str);
-        // 動画
 		if(info[i].video1 != "" && info[i].video1 != null){
-			// ニコニコ
 			$("<td width='1%' align='center'><a href='http://www.nicovideo.jp/watch/sm" + info[i].video1 + "' target='_blank'><img src='/style/nico.gif' border='0' alt='ニコニコ動画' /></a></td>").appendTo(str);
 		} else if(info[i].video2 != "" && info[i].video2 != null){
-			// YouTube
 			$("<td width='1%' align='center'><a href='http://www.youtube.com/watch?v=" + info[i].video2 + "' target='_blank'><img src='/style/youtube.gif' border='0' alt='Youtube' /></a></td>").appendTo(str);
 		} else if(info[i].video3 != "" && info[i].video3 != null){
 			// vimeo
@@ -166,18 +156,10 @@ function makeBMSTable(info, mark, order) {
 		} else {
         	$("<td width='1%'></td>").appendTo(str);
 		}
-　　　　// 譜面画像
 　　　　$("<td width='1%' align='center'><a href='http://www.ribbit.xyz/bms/score/view?p=1&md5=" + info[i].md5 + "' target='_blank'>♪</a></td>").appendTo(str);
-
-　　　　// Mocha Repository
 　　　　$("<td width='1%' align='center'><a href='https://mocha-repository.info/song.php?sha256=" + info[i].sha256 + "' target='_blank'><img src='/style/mochair_logo.gif' border='0' alt='Mocha Repository' /></a></td>").appendTo(str);
-
-　　　　// MinIR
 　　　　$("<td width='1%' align='center'><a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0' target='_blank'><img src='/style/minir_logo.gif' border='0' alt='MinIR' /></a></td>").appendTo(str); <!-- /0 を /1 /2 に変更すると CN,HCN のIRページにリンクされます -->
-
-        // タイトル
         $("<td width='20%'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
-        // アーティスト
         var astr = "";
         if(info[i].url != "" && info[i].url != null) {
         	if(info[i].artist != "" && info[i].artist != null) {
@@ -202,7 +184,6 @@ function makeBMSTable(info, mark, order) {
         	}
         }
         $("<td width='20%'>" + astr + "</td>").appendTo(str);
-        // 差分
         if(info[i].url_diff != "" && info[i].url_diff != null) {
         	if(info[i].name_diff != "" && info[i].name_diff != null) {
 	        $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
@@ -216,7 +197,6 @@ function makeBMSTable(info, mark, order) {
 	        $("<td width='15%'></td>").appendTo(str);
         	}
         }
-        // コメント
         $("<td width='25%'>" + info[i].comment + "</div></td>").appendTo(str);
         str.appendTo(obj);
         count++;
