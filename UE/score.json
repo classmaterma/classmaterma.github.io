@@ -1,5 +1,3 @@
-
-
 [
 {"level":"1","title":"Neon Paradise [6K UE Beginner]","sha256":"","md5":"bcf4cdf5d3cc286decf5a26cade4d1b6","video1":"","video2":"SyaXTv-77QY","url_diff":"","name_diff":"CR","url":"","artist":"megawolf77","comment":"","state":""},
 {"level":"1","title":"Baby [6K UE Beginner]","sha256":"","md5":"c6200823a728dfb20c389bf5401df3f9","video1":"","video2":"Zbb7stm8uSc","url_diff":"","name_diff":"CR","url":"","artist":"r","comment":"","state":""},
@@ -20,7 +18,7 @@
 {"level":"6","title":"Palescreen [6K UE NM]","sha256":"","md5":"0ebbdcb3be6aff54eb84e49a3f14b9ae","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"WyvernP","comment":"","state":"1"},
 {"level":"7","title":"Neon Paradise [6K UE Normal]","sha256":"","md5":"f2f04dae1bebf92724590522165cc180","video1":"","video2":"PNb6RcFdHxs","url_diff":"","name_diff":"CR","url":"","artist":"megawolf79","comment":"","state":""},
 {"level":"7","title":"ETERNAL DRAIN [6K UE NM]","sha256":"","md5":"b4ed0a47f0412264593360f996f09153","video1":"","video2":"","url_diff":"","name_diff":"COOKI","url":"","artist":"カラフル・サウンズ・ポート ","comment":"","state":"1"},
-{"level":"8","title":"The Seoul [6K UE NM]","sha256":"","md5":"fc5fb083118a6ef0ad28cea576273880","video1":"","video2":"_cSZG28UL3c","url_diff":"","name_diff":"COOKI","url":"","artist":"genesik","comment":"","state":""},
+{"level":"4","title":"The Seoul [6K UE NM]","sha256":"","md5":"fc5fb083118a6ef0ad28cea576273880","video1":"","video2":"_cSZG28UL3c","url_diff":"","name_diff":"COOKI","url":"","artist":"genesik","comment":"","state":""},
 {"level":"8","title":"Defeat awaken battleship [6K UE NM]","sha256":"","md5":"e6075609d60f428f160dbb678121ff75","video1":"","video2":"DuFmVu79Jtk","url_diff":"","name_diff":"COOKI","url":"","artist":"有賀 澪","comment":"","state":""},
 {"level":"8","title":"Black or White [6K UE BEGINNER]","sha256":"","md5":"e65473d6853494e47b3d363966dc9b3a","video1":"","video2":"4UYEL2vnEF0","url_diff":"","name_diff":"kindman","url":"","artist":"Yonder Voice","comment":"","state":""},
 {"level":"8","title":"Kaleidoscope [6K UE NM]","sha256":"","md5":"ce86dedcec1915499cb42aa78ed8d023","video1":"","video2":"5YAjDuhK4qY","url_diff":"","name_diff":"COOKI","url":"","artist":" qfeileadh","comment":"","state":""},
@@ -41,7 +39,7 @@
 {"level":"10","title":"Flanker-E [6K UE NM]","sha256":"","md5":"e4d1c2f3bbd0c5cf4bebb2616453db9b","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"Lemi.","comment":"","state":"1"},
 {"level":"10","title":"Atohs [6K UE Normal Raid]","sha256":"","md5":"14f74e54ea91f39fe390a167f7e00641","video1":"","video2":"","url_diff":"","name_diff":"reobj:COOKI","url":"","artist":"ice","comment":"","state":"1"},
 {"level":"11","title":"Black or White [6K UE EASY]","sha256":"","md5":"6a9b1277ff30fabdbc80ffc81defe510","video1":"","video2":"mZDJN1yExrU","url_diff":"","name_diff":"kindman","url":"","artist":"Yonder Voice","comment":"","state":""},
-{"level":"11","title":"Bad Elixir [6K UE AstraZeneca]","sha256":"","md5":"268e58e929b334002484c4477415a09a","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"xi","comment":"","state":"1"},
+{"level":"9","title":"Bad Elixir [6K UE AstraZeneca]","sha256":"","md5":"268e58e929b334002484c4477415a09a","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"xi","comment":"","state":"1"},
 {"level":"12","title":"Icicle Stinger [6K UE NM]","sha256":"","md5":"11be9284a20aaa2cccde43a714461382","video1":"","video2":"pquP-VeQVek","url_diff":"","name_diff":"COOKI","url":"","artist":"Rokina","comment":"","state":""},
 {"level":"12","title":"Agilion [6K UE EASY]","sha256":"","md5":"0afdf88fa3a2107c0c9d9d6b3fb05132","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"LeaF","comment":"","state":"1"},
 {"level":"12","title":"New York Back Raise [ 6K UE NORMAL ]","sha256":"","md5":"ee3f73734c049fdee8ffcc19e272c76f","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"saaa + kei_iwata + stuv + わかどり","comment":"","state":"1"},
@@ -85,7 +83,7 @@
 {"level":"17","title":"Jungtur (BMS Edit) [6K UE Minsu]","sha256":"","md5":"56ed67dc8c45f8a528a6a3b373717c11","video1":"","video2":"m4mH29wGF9U","url_diff":"","name_diff":" ","url":"","artist":"CLTH (BMS : NIKANON)","comment":"","state":""},
 {"level":"17","title":"Hypertext Transfer Protocol (6K UE HARD)","sha256":"","md5":"3da6e1e66d8c43b474865064f617572a","video1":"","video2":"9XDAMa43Thc","url_diff":"","name_diff":"Terryyyyyyyyyyy","url":"","artist":"EXCITECH","comment":"","state":""},
 {"level":"17","title":"Cutter [6K UE Normal]","sha256":"","md5":"4ce32e4c962d300afd90b86ce0b8281a","video1":"","video2":"G6Jee82JoNM","url_diff":"","name_diff":"Velvet","url":"","artist":"EmoCosine","comment":"","state":""},
-{"level":"17","title":"The Lady Is A Trump [6K UE Obama]","sha256":"","md5":"607b44a37d17971c523a4f487605847d","video1":"","video2":"","url_diff":"","name_diff":"Barack Obama","url":"","artist":"Damjoy&ほくとしちせい","comment":"","state":"1"},
+{"level":"16","title":"The Lady Is A Trump [6K UE Obama]","sha256":"","md5":"607b44a37d17971c523a4f487605847d","video1":"","video2":"","url_diff":"","name_diff":"Barack Obama","url":"","artist":"Damjoy&ほくとしちせい","comment":"","state":"1"},
 {"level":"17","title":"514nm(Kucchi mix)  [6K UE SHD]","sha256":"","md5":"87922f3d04402ff9e19a26112d649ac4","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"Another Infinity vs ZUN Remixed by くっちー","comment":"","state":"1"},
 {"level":"17","title":"ETERNAL DRAIN [6K UE SHD]","sha256":"","md5":"56a54c274997033e95c85f5c8d1ee1c5","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"カラフル・サウンズ・ポート ","comment":"","state":"1"},
 {"level":"17","title":"Atohs [6K  UE Hard Raid]","sha256":"","md5":"959c8aa7f563aa272af9bbfe15d44eb1","video1":"","video2":"","url_diff":"","name_diff":"reobj:COOKI","url":"","artist":"ice","comment":"","state":"1"},
@@ -204,6 +202,3 @@
 {"level":"?!","title":"New York Back Raise [ 6 K  U E P L A Y ]","sha256":"","md5":"5f0dd9f9f8271dc22bf206393d5e0a3a","video1":"","video2":"","url_diff":"","name_diff":"kindman","url":"","artist":"saaa + kei_iwata + stuv + わかどり","comment":"","state":"1"},
 {"level":"?!","title":"|Act Casket| [6K UE -R- ]","sha256":"","md5":"45926159676a82cb196e595358c42755","video1":"","video2":"","url_diff":"","name_diff":"CR","url":"","artist":"ルゼ","comment":"","state":""}
 ]
-
-
-
