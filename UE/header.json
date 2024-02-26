@@ -26,15 +26,31 @@
 				"11be9284a20aaa2cccde43a714461382",
 				"79e44f24bd0946e2c7294778364b1d66"
 			]
-		},
-		.
-		.
-		.			
+		},			
 	],
 	[
-		.
-		.
-		.
-	]
+		{
+			"name":"UE Level Test Lv.1",
+			"constraint":["grade_mirror"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"0c110fc3a622b92808ffead15ee38995",
+				"5c03f1671c33aa91da79051e7fc369c9",
+				"efd6a3de1592f2eb2891df6bf0237402",
+				"e6d096ef0729191ef49c0dfb106a9198"
+			]
+		},			
+	],
 ]
 }
