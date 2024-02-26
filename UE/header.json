@@ -3,4 +3,30 @@
 "symbol" : "6UE",
 "data_url" : "./score.json",
 "level_order" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,"-_-","?!"]
+"course":[
+	[
+		{
+			"name":"UE Level Test Lv.0",
+			"constraint":["grade_mirror"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"ee3f73734c049fdee8ffcc19e272c76f",
+				"0afdf88fa3a2107c0c9d9d6b3fb05132",
+				"11be9284a20aaa2cccde43a714461382",
+				"79e44f24bd0946e2c7294778364b1d66"
+			]
+		},			
+	]
+]
 }
