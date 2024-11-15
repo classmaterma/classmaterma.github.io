@@ -74,13 +74,13 @@ body.diff {
 }
 
 .tableflame tr, a {
-  /*Firefox向け*/
+  /*파폭*/
   -moz-transition-property: color, background-color;
   -moz-transition-duration: 0.2s;
-  /*Chrome、Safari向け*/
+  /*크롬 사파리*/
   -webkit-transition-property: color, background-color;
   -webkit-transition-duration: 0.2s;
-  /*Opera向け*/
+  /*오페라*/
   -o-transition-property: color, background-color;
   -o-transition-duration: 0.2s;
   transition-property: color, background-color;
