@@ -1,6 +1,5 @@
 ﻿@charset "utf-8";
 
-/* 難易度表用レイアウト */
 
 body.diff {
   margin: 0px auto 0px auto;
@@ -67,6 +66,7 @@ body.diff {
 
 .tableflame table {
   font-size: 12px;
+  text-align: center;
 }
 
 .tableflame td {
