@@ -7,6 +7,94 @@
 "course":[
 	[
 		{
+			"name":"UE Level Test Lv.N1",
+			"constraint":["grade_mirror","gauge_lr2","ln"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"c6200823a728dfb20c389bf5401df3f9",
+				"af30201aa58ad7012eb01b663f72d0cc",
+				"5b2af4c09f2f1f6e9a4f1edaa01128a4",
+				"aa64f9fc010e728dd088b079b8c501e0"
+			]
+		},
+		{
+			"name":"UE Level Test Lv.N2",
+			"constraint":["grade_mirror","gauge_lr2","ln"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"cc103a3bb361b2ee90d67574576553d1",
+				"add0ea56a29251e28868202dafff78c0",
+				"f7f7d40861ebbdc40b931b78d070ec9e",
+				"4c5751ca8b14c4ee04e69b7f7e31fd73"
+			]
+		},
+		{
+			"name":"UE Level Test Lv.N3",
+			"constraint":["grade_mirror","gauge_lr2","ln"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"01da569a43d266c26b3f440d5c1cfb17",
+				"122c42c36bfa6a19b3a586f08ba2c502",
+				"c977b79a65191e325ead158eda741c99",
+				"f39c4ec8f4c5a3a51f74eb5870e8329b"
+			]
+		},
+		{
+			"name":"UE Level Test Lv.N4",
+			"constraint":["grade_mirror","gauge_lr2","ln"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"f4f53dd6c30abccf8595f1870c81d4f0",
+				"3931ce44b0d829555e3df87ee4d2e3ae",
+				"462a251bab01b7c4489002c2a6ec19bb",
+				"a509cb9d233d0ef114290821311ecc84"
+			]
+		},	
+		{
 			"name":"UE Level Test Lv.0",
 			"constraint":["grade_mirror","gauge_lr2","ln"],
 			"trophy":[
@@ -23,11 +111,11 @@
 			],
 			"md5":[
 				"ee3f73734c049fdee8ffcc19e272c76f",
-				"0afdf88fa3a2107c0c9d9d6b3fb05132",
+				"9bab35c081d41d94be038b948521d1a3",
 				"11be9284a20aaa2cccde43a714461382",
 				"79e44f24bd0946e2c7294778364b1d66"
 			]
-		},			
+		},
 		{
 			"name":"UE Level Test Lv.1",
 			"constraint":["grade_mirror","gauge_lr2","ln"],
@@ -46,8 +134,8 @@
 			"md5":[
 				"0c110fc3a622b92808ffead15ee38995",
 				"5c03f1671c33aa91da79051e7fc369c9",
-				"efd6a3de1592f2eb2891df6bf0237402",
-				"e6d096ef0729191ef49c0dfb106a9198"
+				"8adfd44f7f1c4c38140bb2849f922913",
+				"4ad3cae8c9de9f883fc8bbd8d45be43e"
 			]
 		},
 		{
@@ -68,7 +156,7 @@
 			"md5":[
 				"534eab05d31e0d775f66a8274f0bfcaa",
 				"570e52e0cfdfeffea0bbbb642171aa3a",
-				"a8e64636b86d7947cb5f97195306c453",
+				"2248854590e41fab6c594dac2ea84259",
 				"33f5dd1dd74aea46c2a96347ce426412"
 			]
 		},
@@ -89,8 +177,8 @@
 			],
 			"md5":[
 				"dd87a8d00c25295addc9b197899ce51d",
-				"f7a26e88006f5893fb7cfdf23f38ce19",
-				"33474b63c993f616dc1f6d43027b76ec",
+				"0483a910a3c54be054aaaf638e5d1643",
+				"f338c075d255e77ac6b407d72c92304e",
 				"80e83c540b28faf8e0e510609a9c24d5"
 			]
 		},
@@ -110,10 +198,10 @@
 				}
 			],
 			"md5":[
-				"fe9e825510d4597d2ca20e75b1ca834f",
-				"e3d7d971e2359aac7141b2a0b5cec9b4",
-				"607b44a37d17971c523a4f487605847d",
-				"4e35ad0cd7828ab3eac47927584b7771"
+				"d3650b81a19c5c9230924711ec079e52",
+				"90582ec82237ebc70845fa9405d406cd",
+				"fa894572f29107cee27a622b56b002b0",
+				"b4c7390707fcdaf7bac733cc210da2b0"
 			]
 		},
 		{
@@ -133,9 +221,9 @@
 			],
 			"md5":[
 				"87922f3d04402ff9e19a26112d649ac4",
-				"4ce32e4c962d300afd90b86ce0b8281a",
-				"56a54c274997033e95c85f5c8d1ee1c5",
-				"56ed67dc8c45f8a528a6a3b373717c11"
+				"b6dae02cb1a47ca5801238c1d5347d7f",
+				"50f09dcce84751b1cbb6f7d88840bee5",
+				"4714152a31627372176c8be2e18ab5e3"
 			]
 		},
 		{
@@ -154,10 +242,10 @@
 				}
 			],
 			"md5":[
-				"9fbb3acc0730bc015acd077a047fcd11",
-				"1b4264d6ed3c6a8f3620589a5e14d220",
-				"b8890f67ac3cb5d603557f091168a0a4",
-				"1edeee462481bc0c4f04aa6cc21662e5"
+				"634335c38aa53d0b3a02d4342fff919b",
+				"3e60d741e4c8a5fdc91232e392a3921e",
+				"8efb5b3a65e708cd869d18662535ffcb",
+				"553c6345decea5c4bbef03c8bacbbe73"
 			]
 		},
 		{
@@ -176,10 +264,10 @@
 				}
 			],
 			"md5":[
-				"843de77ca9204ccd34cb407a4ae3007d",
-				"4b5e14f9edd0051832fc2c4c34c7b370",
-				"894b0a50d16645175674210d5ad616dd",
-				"ba5422cdcc46e15fedbacb169858f887"
+				"3222fab92028dabcca61b00cc5f5844d",
+				"26d02fb4d04cd184a52bf39f7c4ada3e",
+				"c436316b2f58a7020076cbd1a58012ea",
+				"c81fcc57e19707fe2e9f6ba7ffbe2755"
 			]
 		},
 		{
@@ -198,10 +286,10 @@
 				}
 			],
 			"md5":[
-				"dcf6b19ec10cedd185e2351a105f7a17",
-				"5244b433acbb0596443c9dfa2234516e",
-				"cb237e69068781bc36bc9f537ef3ae70",
-				"70f4bf2aa35514765a6d126d26872fb5"
+				"65e1c4daa247a3687f0d0e47a13f76f1",
+				"7af74ff85aa06f80065347b7aeecb2b4",
+				"50e6c0ea6d931eb23647b21d7fef3eff",
+				"d9f04636eebc6ce74d49561d7a222952"
 			]
 		},
 		{
@@ -220,10 +308,10 @@
 				}
 			],
 			"md5":[
+				"bba9046c5bc9087a869f848f0eef5bc7",
 				"e3ca563ba2d9f1de074bb96da100fc60",
-				"4a61774855225c14c1b5c65068ce86e0",
-				"1f44bde5bd960dc4187015fdd64d3b5a",
-				"d18196f47342dfb93721e9e7b2014148"
+				"14714092f7612532abc6af4e5e1d4d14",
+				"4a61774855225c14c1b5c65068ce86e0"
 			]
 		},
 		{
@@ -242,14 +330,14 @@
 				}
 			],
 			"md5":[
-				"a10a7b279f1a93f41b6fa604e23f51bb",
-				"4e3004498cc04435863f9d3aa091cc61",
-				"34aff8818e668bb9bb9b4c9526d5cf95",
-				"d9a3753e6a8759f690e96ff654f09cb4"
+				"c06fd83fffe6ea1de68337eadb1be99d",
+				"408b4776c14d5ad5500b0a15a4af1668",
+				"7c2ed217dd0576297cbf6be1ade85a2c",
+				"62b391e096fefaebede50ad3671ddfd5"
 			]
 		},
 		{
-			"name":"UE Level Test Lv.μ",
+			"name":"UE Level Test Lv.N",
 			"constraint":["grade_mirror","gauge_lr2","ln"],
 			"trophy":[
 				{
@@ -264,14 +352,14 @@
 				}
 			],
 			"md5":[
-				"31f3e4a7a76e0648558241427646d193",
-				"f5004d14339e20a89355237ee3aee1a6",
+				"6fd32a1fdf6d0cbd937ccc44c5aba997",
 				"9eda249978e88a54c6f7125b36b12d52",
-				"6fad63a52410cf2d7731e095d5fc21e8"
+				"6e0b510c4eda7f24ebe342d1739fef60",
+				"8e3ff13288da4fdfa93de8bd89ba4922"
 			]
 		},
 		{
-			"name":"UE Level Test Lv.γ",
+			"name":"UE Level Test Lv.λ",
 			"constraint":["grade_mirror","gauge_lr2","ln"],
 			"trophy":[
 				{
@@ -286,14 +374,14 @@
 				}
 			],
 			"md5":[
+				"bcb080872db035edff13c57d990a01f4",
 				"304ffd1faf6d6592f6ad7932aff17869",
-				"20e195f0c6557097caded8de9907fe95",
-				"50aea25b065fcea8270406bc1cd33f42",
-				"bcec6ce647784e65f2394e12f0ac5203"
+				"461612a87c0bc757f01dfb44bcbfcff4",
+				"e33870d32be89eae933f0e417c3cf9fd"
 			]
 		},
 		{
-			"name":"UE Level Test Lv.τ",
+			"name":"UE Level Test Lv.ζ",
 			"constraint":["grade_mirror","gauge_lr2","ln"],
 			"trophy":[
 				{
@@ -308,10 +396,32 @@
 				}
 			],
 			"md5":[
-				"adcffd3a2c2f5ec9c6d1b2adc83be66d",
+				"722f90f2f3ca3a956d11215834adf15b",
 				"8a2c3d2e9cfcf86f93d72076b80be088",
-				"16eefeb2044c04fbd70e305b835cfdcd",
+				"df23c822324b4db6b0cb9986f764906a",
 				"ad7ac711d8455df17189e7deccef3800"
+			]
+		},
+		{
+			"name":"UE Level Test Lv.Ψ",
+			"constraint":["grade_mirror","gauge_lr2","ln"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"81d063b53d4f8f6808e561adff9490e8",
+				"c22a21c947471bd045632d42e9e6967f",
+				"7572e83e10f7ad4aa967b08b38b0f1e6",
+				"47d1d59fd43338321839d7f440fca2c5"
 			]
 		},
 		{
@@ -330,10 +440,32 @@
 				}
 			],
 			"md5":[
-				"2121071602f5e8080209c76559322d2e",
-				"47d1d59fd43338321839d7f440fca2c5",
-				"b814ad93e87d5a6e6cb8ce52a9cbad36",
+				"e14a01d52a9ca73cf3cb07e9645568d6",
+				"da4d3fbea9f060c7f00eb99b001a32e2",
+				"b31d6e31f29c3cc8a309ea2114dc420c",
 				"809262c32fb938468dae5627c05466a4"
+			]
+		},
+		{
+			"name":"UE Level Extra Final Test LV.Ω",
+			"constraint":["grade_mirror","gauge_lr2","ln"],
+			"trophy":[
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"md5":[
+				"1b2f93ea73510e5dee2034746bea68a7",
+				"b3363c5e3d9b38dd42af0e2f0a89d4fd",
+				"ad6df1f79dfd1c87a20e040dbf3f5c81",
+				"c327a264f803e37f06d3f4102b098f7c"
 			]
 		}
 	]
