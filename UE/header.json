@@ -337,7 +337,7 @@
 			]
 		},
 		{
-			"name":"UE Level Test Lv.N",
+			"name":"UE Level Test Lv.Ν",
 			"constraint":["grade_mirror","gauge_lr2","ln"],
 			"trophy":[
 				{
