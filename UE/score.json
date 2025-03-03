@@ -812,8 +812,8 @@
 {"level":"23","title":"Holyvenger [6K UE JudgeMent]","sha256":"","md5":"6e0b510c4eda7f24ebe342d1739fef60","video1":"","video2":"","url_diff":"","name_diff":"ClassicNooB","url":"","artist":"ROKINA","comment":"","state":""},
 {"level":"23","title":"Lacrimosa [6K UE Legio Mariae]","sha256":"","md5":"6fad63a52410cf2d7731e095d5fc21e8","video1":"","video2":"UslyG2w8m_g","url_diff":"","name_diff":"Stefano Cho","url":"","artist":"Abel & RiraN","comment":"","state":""},
 {"level":"23","title":"Life is PIANO [6k UE End of Journey]","sha256":"","md5":"00f70350c907a4b782d0b7a00584dd60","video1":"","video2":"","url_diff":"","name_diff":"Dream","url":"","artist":"Junk","comment":"133 bpm Chordjack","state":""},
-{"level":"23","title":"MEGALOVANIA [6K Do you wanna have a bad time?]","sha256":"","md5":"6fd32a1fdf6d0cbd937ccc44c5aba997","video1":"","video2":"","url_diff":"","name_diff":"kindman","url":"","artist":"Yoby Fox","comment":"","state":""},
-{"level":"23","title":"Miracletale [6K UE_Atharther]","sha256":"","md5":"2906a7962c98526efa963be32157e503","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"kooridori & TRIAL","comment":"","state":"1"},
+{"level":"23","title":"MEGALOVANIA [6K Do you wanna have a bad time?]","sha256":"","md5":"6fd32a1fdf6d0cbd937ccc44c5aba997","video1":"","video2":"","url_diff":"","name_diff":"kindman","url":"","artist":"Toby Fox","comment":"","state":""},
+{"level":"23","title":"Miracletale [6K UE_Atharther]","sha256":"","md5":"2906a7962c98526efa963be32157e503","video1":"","video2":"","url_diff":"","name_diff":"Atharnal","url":"","artist":"kooridori & TRIAL","comment":"","state":"1"},
 {"level":"23","title":"mojavuda [6K UE SHD]","sha256":"","md5":"8e3ff13288da4fdfa93de8bd89ba4922","video1":"","video2":"","url_diff":"","name_diff":"Dream","url":"","artist":"Dinger Box","comment":"","state":""},
 {"level":"23","title":"Ops:Limone [6K UE HARD]","sha256":"","md5":"002ed32982b0b37c97f4a4d1d57c78f4","video1":"","video2":"","url_diff":"","name_diff":"kindman","url":"","artist":"Reku Mochizuki","comment":"","state":"1"},
 {"level":"23","title":"PEACE BREAKER [6K MENTAL BREAKER]","sha256":"","md5":"4c9eef365fe695d0fb5d9c50aca91b20","video1":"","video2":"","url_diff":"","name_diff":"kindman","url":"","artist":"Omnipotenx","comment":"","state":""},
@@ -1084,5 +1084,4 @@
 {"level":"Ω","title":"Gale of Viridian[6K UE Legendary Typhoon]","sha256":"","md5":"1f0dceb09e045941e2ccebc324a7eec2","video1":"","video2":"","url_diff":"","name_diff":"obj:dream / reobj:Insomnia","url":"","artist":"白羽","comment":"160 bpm Chordjack, High total (0.245% / 4004 notes)","state":""},
 {"level":"Ω","title":"LAST PROPOZE [6K さよなら]","sha256":"","md5":"edd107d129497f59feb8410f2cf401d0","video1":"","video2":"","url_diff":"","name_diff":"LY","url":"","artist":"あとぅす feat.橘花音","comment":"144 bpm Chordjack","state":""},
 {"level":"Ω","title":"Vorota Collapse [6K UE Haven Collapse]","sha256":"","md5":"c377586f80bde6d308b7fb03adb78905","video1":"","video2":"WqPjnEhDl94","url_diff":"","name_diff":"GOSIN","url":"","artist":"eicateve","comment":"HIGH ChordJack + Delay","state":""},
-{"level":"Ω","title":"クォークの海を泳いで [6K UE Bottom quark]","sha256":"","md5":"8e5611a38b534aeb1114619ba0fa868d","video1":"","video2":"","url_diff":"","name_diff":"LY","url":"","artist":"hugepulse","comment":"","state":"1"}
-]
+{"level":"Ω","title":"クォークの海を泳いで [6K UE Bottom quark]","sha256":"","md5":"8e5611a38b534aeb1114619ba0fa868d","video1":"","video2":"","url_diff":"","name_diff":"LY","url":"","artist":"hugepulse","comment":"","state":"1"},
