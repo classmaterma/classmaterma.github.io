@@ -1,1 +1,1 @@
-UE Pack & ClassICNooB Difficulty Table Page
+UE pack difficulty table page
