@@ -1,0 +1,13 @@
+name: apply-to-qwilight-server
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    apply-to-qwilight-server:
+        runs-on: ubuntu-latest
+        steps:
+            - run:
+                ls
