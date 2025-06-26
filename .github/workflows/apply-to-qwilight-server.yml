@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run:
-                ls
+                curl -H "Authorization: Basic ${{ secrets.TAEHUIGOCHU001NM }}" -X PATCH https://taehui.net/qwilight/www/ability
