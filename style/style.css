@@ -15,7 +15,7 @@ body.diff {
   margin: 15px;
   font-size: 25px;
   font-weight: bold;
-  word-wrap: break-word;
+  max-width: 465px
 }
 .tableflame {
   margin-left: auto;
