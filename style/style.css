@@ -23,6 +23,7 @@ body.diff {
   text-align: center;
   background-color: #222222;
   min-width: 900px;
+  max-width: 1920px;
 }
 
 .tableflame a {
@@ -91,10 +92,7 @@ body.diff {
   transition-property: color, background-color;
   transition-duration: 0.2s;
 }
-.tableflame tr.tr_normal
-{
-  max-width: 1325px; 
-}
+
 .tableflame tr.tr_normal:hover {
   background-color: #70f0f0;
 }
