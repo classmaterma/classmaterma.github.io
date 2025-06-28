@@ -91,7 +91,10 @@ body.diff {
   transition-property: color, background-color;
   transition-duration: 0.2s;
 }
-
+.tableflame tr.tr_normal
+{
+  max-width: 1325px; 
+}
 .tableflame tr.tr_normal:hover {
   background-color: #70f0f0;
 }
