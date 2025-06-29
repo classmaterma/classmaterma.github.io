@@ -9,4 +9,4 @@ jobs:
     apply-to-qwilight-server:
         runs-on: ubuntu-latest
         steps:
-            - run: 'curl -H "Authorization: Basic ${{ secrets.TAEHUIGOCHU001NM }}" -X PATCH https://taehui.net/qwilight/www/ability'
+            - run: 'curl -H "Authorization: Bearer ${{ secrets.TAEHUIGOCHU001NM }}" -X PATCH https://taehui.net/qwilight/www/ability'
