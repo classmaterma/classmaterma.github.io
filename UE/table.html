@@ -157,7 +157,7 @@ function makeBMSTable(info, mark, order) {
 		} else {
         	$("<td width='1%'></td>").appendTo(str);
 		}
-　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kro.kr/bms/chart?md5=" + info[i].md5 + "' target='_blank'>♪</a></td>").appendTo(str);
+　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kr/bms/chart?md5=" + info[i].md5 + "' target='_blank'>♪</a></td>").appendTo(str);
 　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kr/bms/qwilight-IR?md5=" + info[i].md5 + "' target='_blank'>🎹</a></td>").appendTo(str);
 　　　　$("<td width='1%' align='center'><a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0' target='_blank'><img src='/style/minir_logo.gif' border='0' alt='MinIR' /></a></td>").appendTo(str); <!-- /0 を /1 /2 に変更すると CN,HCN のIRページにリンクされます -->
         $("<td width='20%'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
@@ -213,3 +213,4 @@ function makeBMSTable(info, mark, order) {
 
 </body>
 </html>
+
