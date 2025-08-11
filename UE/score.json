@@ -321,7 +321,7 @@
 {"level":"17","title":"Atohs [6K  UE Hard Raid]","sha256":"","md5":"959c8aa7f563aa272af9bbfe15d44eb1","video1":"","video2":"","url_diff":"","name_diff":"reobj:COOKI","url":"","artist":"ice","comment":"","state":""},
 {"level":"17","title":"AVALON [6K Hard]","sha256":"","md5":"fe591655171d76d263c42ad9729db572","video1":"","video2":"","url_diff":"","name_diff":"CR","url":"","artist":"Team:SASAKURATION","comment":"","state":""},
 {"level":"17","title":"Baby [6K UE Hard]","sha256":"","md5":"e3d7d971e2359aac7141b2a0b5cec9b4","video1":"","video2":"EoWwrTW_mdQ","url_diff":"","name_diff":"CR","url":"","artist":"r","comment":"110 bpm Chord Jack","state":""},
-{"level":"17","title":"BABYLON [6K UE Hard]","sha256":"","md5":"0cb325f5c5e2fef8d2c0c5741ab8ac62","video1":"","video2":"","url_diff":"","name_diff":"Dream","url":"","artist":"SHIKI","comment":"","state":""},
+{"level":"18","title":"BABYLON [6K UE Hard]","sha256":"","md5":"0cb325f5c5e2fef8d2c0c5741ab8ac62","video1":"","video2":"","url_diff":"","name_diff":"Dream","url":"","artist":"SHIKI","comment":"","state":""},
 {"level":"17","title":"BAMBOO TWIST [6K UE Matsu]","sha256":"","md5":"2ee28e50a638576a5deeb55e4f10a153","video1":"","video2":"","url_diff":"","name_diff":"sadboy","url":"","artist":"Ras vs Nankumo","comment":"","state":""},
 {"level":"17","title":"BB BLOW [6K UE Hard]","sha256":"","md5":"58b8f82074bcbde2f68cb1bdcec6dd0d","video1":"","video2":"CG8-klwntQA","url_diff":"","name_diff":"CR","url":"","artist":"onoken","comment":"","state":""},
 {"level":"17","title":"Be With U [6K UE Hard]","sha256":"","md5":"2352a3d4fccc68e863bc6e631889dfb8","video1":"","video2":"","url_diff":"","name_diff":"Dream","url":"","artist":"F Rabbeat","comment":"","state":""},
@@ -421,7 +421,7 @@
 {"level":"18","title":"Anhedonia [6K UE SHD]","sha256":"","md5":"8af9162fe190de7eb19e1104309d202e","video1":"","video2":"","url_diff":"","name_diff":"REMEDY","url":"","artist":"Silent Spica","comment":"","state":""},
 {"level":"18","title":"AutumnBreeze [6K UE MX]","sha256":"","md5":"cef16eed778532256eb90372a11df8ea","video1":"","video2":"","url_diff":"","name_diff":"sadboy","url":"","artist":"Grand thaw","comment":"","state":""},
 {"level":"18","title":"AXION [6K UE Dark Matter]","sha256":"","md5":"624086b553ce7a2d0a12a7673a92b19b","video1":"","video2":"","url_diff":"","name_diff":"sadboy","url":"","artist":"Magic Mash Man","comment":"LN stream","state":""},
-{"level":"18","title":"Babylon [6K UE Tribute]","sha256":"","md5":"ccfd04929cc8ecf8d9f9d00d1e5cb768","video1":"","video2":"","url_diff":"","name_diff":"sadboy","url":"","artist":"XCALIpUR","comment":"","state":""},
+{"level":"17","title":"Babylon [6K UE Tribute]","sha256":"","md5":"ccfd04929cc8ecf8d9f9d00d1e5cb768","video1":"","video2":"","url_diff":"","name_diff":"sadboy","url":"","artist":"XCALIpUR","comment":"","state":""},
 {"level":"18","title":"Bad Elixir [6K UE Janssen]","sha256":"","md5":"b8890f67ac3cb5d603557f091168a0a4","video1":"","video2":"","url_diff":"","name_diff":"","url":"","artist":"xi","comment":"","state":""},
 {"level":"18","title":"Beyond [6K UE HYPER+]","sha256":"","md5":"b647bbc5f8240007f327eb866adfcfbd","video1":"","video2":"","url_diff":"","name_diff":"sadboy","url":"","artist":"Lime","comment":"","state":""},
 {"level":"18","title":"Bird Sprite -D.K.R. mix- 6K [UE 昇天]","sha256":"","md5":"d638aca388188dcb24967af1f6d44e33","video1":"","video2":"","url_diff":"","name_diff":"COOKI","url":"","artist":"Syatten","comment":"","state":""},
@@ -1223,3 +1223,4 @@
 {"level":"Ω","title":"La Tierra de Majestad [6K UE For Ham]","sha256":"","md5":"ab734fe350434c1004a19b429184acc7","video1":"","video2":"9wzp2zMgTXE","url_diff":"","name_diff":"ClassICNooB","url":"","artist":"ROKINA","comment":"","state":"1"},
 {"level":"Ω","title":"クォークの海を泳いで [6K UE Bottom quark]","sha256":"","md5":"8e5611a38b534aeb1114619ba0fa868d","video1":"","video2":"","url_diff":"","name_diff":"LY","url":"","artist":"hugepulse","comment":"304 bpm","state":""}
 ]
+
