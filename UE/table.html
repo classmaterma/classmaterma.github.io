@@ -158,7 +158,7 @@ function makeBMSTable(info, mark, order) {
         	$("<td width='1%'></td>").appendTo(str);
 		}
 　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kr/bms/chart?md5=" + info[i].md5 + "' target='_blank'>♪</a></td>").appendTo(str);
-　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kr/bms/ir/qwilight?md5=" + info[i].md5 + "' target='_blank'>🎹</a></td>").appendTo(str);
+　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kr/bms/qwilight-IR?md5=" + info[i].md5 + "' target='_blank'>🎹</a></td>").appendTo(str);
         $("<td width='20%'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
         var astr = "";
         if(info[i].url != "" && info[i].url != null) {
@@ -183,7 +183,7 @@ function makeBMSTable(info, mark, order) {
         		astr += "<br />(" + info[i].name_pack + ")";
         	}
         }
-        $("<td width='40%'>" + astr + "</td>").appendTo(str);
+        $("<td width='20%'>" + astr + "</td>").appendTo(str);
         if(info[i].url_diff != "" && info[i].url_diff != null) {
         	if(info[i].name_diff != "" && info[i].name_diff != null) {
 	        $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
@@ -197,7 +197,7 @@ function makeBMSTable(info, mark, order) {
 	        $("<td width='15%'></td>").appendTo(str);
         	}
         }
-        $("<td width='25%'>" + info[i].comment + "</div></td>").appendTo(str);
+        $("<td width='26%'>" + info[i].comment + "</div></td>").appendTo(str);
         str.appendTo(obj);
         count++;
     }
