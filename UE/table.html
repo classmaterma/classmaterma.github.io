@@ -183,7 +183,7 @@ function makeBMSTable(info, mark, order) {
         		astr += "<br />(" + info[i].name_pack + ")";
         	}
         }
-        $("<td width='20%'>" + astr + "</td>").appendTo(str);
+        $("<td width='40%'>" + astr + "</td>").appendTo(str);
         if(info[i].url_diff != "" && info[i].url_diff != null) {
         	if(info[i].name_diff != "" && info[i].name_diff != null) {
 	        $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
