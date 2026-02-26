@@ -112,7 +112,7 @@ function makeBMSTable(info, mark, order) {
 	}
 	
     obj.html("");
-    $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>Video</td><td align='center'>Pattern</td><td align='center'>Qwilight IR</td><td align='center'>beatoraja IR</td><td align='center'>Title</td><td align='center'>Song</td><td align='center'>Sabun Maker</td><td align='center'>Comment</td></tr>").appendTo(obj);
+    $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>Video</td><td align='center'>Pattern</td><td align='center'>Qwilight IR</td><td align='center'>Title</td><td align='center'>Song</td><td align='center'>Sabun Maker</td><td align='center'>Comment</td></tr>").appendTo(obj);
     var obj_sep = null;
     for (var i = 0; i < info.length; i++) {
         if (x != info[i].level) {
@@ -159,7 +159,6 @@ function makeBMSTable(info, mark, order) {
 		}
 　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kr/bms/chart?md5=" + info[i].md5 + "' target='_blank'>♪</a></td>").appendTo(str);
 　　　　$("<td width='1%' align='center'><a href='https://ez2pattern.kr/bms/ir/qwilight?md5=" + info[i].md5 + "' target='_blank'>🎹</a></td>").appendTo(str);
-　　　　$("<td width='1%' align='center'><a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i].sha256 + "/0' target='_blank'><img src='/style/minir_logo.gif' border='0' alt='MinIR' /></a></td>").appendTo(str); <!-- /0 を /1 /2 に変更すると CN,HCN のIRページにリンクされます -->
         $("<td width='20%'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
         var astr = "";
         if(info[i].url != "" && info[i].url != null) {
