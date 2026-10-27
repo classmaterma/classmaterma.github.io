@@ -39,7 +39,7 @@ export const TABLES: TableInfo[] = [
 ];
 
 export const DISCORD_URL = "https://discord.gg/WuRjRubyPQ";
-export const HOMEPAGE_URL = "https://sites.google.com/view/6k4kbms/";
+export const HOMEPAGE_URL = "https://choseunghwi.github.io/UE/";
 export const QWILIGHT_URL = "https://store.steampowered.com/app/1910130/Qwilight/";
 
 export interface Header {
