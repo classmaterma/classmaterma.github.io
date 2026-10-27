@@ -11,6 +11,15 @@ TanStack Start로 만들고, 빌드할 때 모든 페이지를 정적 HTML로 �
 
 구동기에 난이도표를 등록할 때는 위 주소를 그대로 쓰면 됩니다.
 
+## 기술 스택
+
+- [TanStack Start](https://tanstack.com/start) + [TanStack Router](https://tanstack.com/router): 라우팅, 빌드 시 정적 HTML 프리렌더링
+- [React](https://react.dev) 19
+- [Vite](https://vite.dev) 8
+- [TypeScript](https://www.typescriptlang.org)
+- [Bun](https://bun.sh): 패키지 관리, 스크립트 실행
+- GitHub Actions + GitHub Pages: 배포
+
 ## 난이도 수정하기
 
 데이터는 저장소 루트의 `UE/`(6K), `4UE/`, `8UE/` 폴더에 있습니다. 이 JSON 파일만 고쳐서 `main`에 push하면 사이트에 반영됩니다.
