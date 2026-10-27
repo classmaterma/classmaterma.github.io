@@ -31,7 +31,7 @@ function TablePage() {
           <p className="label">{info.label} — Table</p>
           <h1>{header.name}</h1>
           <p className="stats">
-            {total.toLocaleString()}곡 · {levels.length}단계 · 기준 {info.criteria.join(" / ")}
+            {total.toLocaleString()}패턴 · {levels.length}단계 · 기준 {info.criteria.join(" / ")}
           </p>
         </section>
         <TableView symbol={header.symbol} levels={levels} />

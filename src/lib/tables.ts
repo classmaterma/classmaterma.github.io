@@ -66,7 +66,7 @@ interface RawSong {
   state?: string | number;
 }
 
-// 화면에 필요한 필드만 남긴 곡 정보 (클라이언트로 넘어가는 데이터를 줄이기 위함)
+// 화면에 필요한 필드만 남긴 패턴(차분) 정보 (클라이언트로 넘어가는 데이터를 줄이기 위함)
 export interface Song {
   title: string;
   md5: string;

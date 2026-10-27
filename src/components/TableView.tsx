@@ -52,7 +52,7 @@ function Row({ song, lv }: { song: Song; lv: string }) {
 
 export default function TableView({ symbol, levels }: { symbol: string; levels: Level[] }) {
   const [query, setQuery] = useState("");
-  // 1,500곡 가까이 다시 그리므로 타이핑이 멈추고 200ms 뒤에 한 번만 필터링 (디바운스)
+  // 1,500개 가까운 패턴을 다시 그리므로 타이핑이 멈추고 200ms 뒤에 한 번만 필터링 (디바운스)
   const [q, setQ] = useState("");
   useEffect(() => {
     const id = setTimeout(() => setQ(query.trim().toLowerCase()), 200);
@@ -94,14 +94,14 @@ export default function TableView({ symbol, levels }: { symbol: string; levels: 
             <circle cx="7" cy="7" r="4.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
             <path d="m10.5 10.5 3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
           </svg>
-          <span className="sr-only">곡 검색</span>
+          <span className="sr-only">패턴 검색</span>
           <input
             type="search"
             placeholder="제목, 아티스트, 차분 제작자 검색"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
-          {hits !== null && <span className="hits">{hits}곡</span>}
+          {hits !== null && <span className="hits">{hits}패턴</span>}
         </label>
         <nav className="levels" aria-label="레벨로 이동">
           {shown.map((l) => (
@@ -112,13 +112,13 @@ export default function TableView({ symbol, levels }: { symbol: string; levels: 
         </nav>
       </div>
 
-      {shown.length === 0 && <p className="empty">“{query}”에 맞는 곡이 없습니다.</p>}
+      {shown.length === 0 && <p className="empty">“{query}”에 맞는 패턴이 없습니다.</p>}
 
       {shown.map((l) => (
         <section key={l.level} className="level" id={`${symbol}${l.level}`} aria-labelledby={`h-${symbol}${l.level}`}>
           <h2 id={`h-${symbol}${l.level}`}>
             <span className="level-name">{symbol}{l.level}</span>
-            <span className="level-count">{l.songs.length}곡</span>
+            <span className="level-count">{l.songs.length}패턴</span>
           </h2>
           <ul className="rows">
             {l.songs.map((s) => <Row key={s.md5 + s.title} song={s} lv={`${symbol}${l.level}`} />)}

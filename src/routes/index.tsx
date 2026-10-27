@@ -3,7 +3,7 @@ import { Arrow, Footer, Lanes, Topbar, ext } from "../components/Chrome";
 import { DISCORD_URL, HOMEPAGE_URL, QWILIGHT_URL, TABLES, getTable } from "../lib/tables";
 
 export const Route = createFileRoute("/")({
-  // 카드에 보여줄 곡 수·단계 수만 넘김 (빌드 때 계산되어 HTML 에 들어감)
+  // 카드에 보여줄 패턴 수·단계 수만 넘김 (빌드 때 계산되어 HTML 에 들어감)
   loader: () =>
     Promise.all(
       TABLES.map(async (t) => {
@@ -57,7 +57,7 @@ function Home() {
                       {t.label}<span className="sr-only"> 난이도표</span>
                     </a>
                   </h3>
-                  <p className="stats">{s.total.toLocaleString()}곡 · {s.levels}단계</p>
+                  <p className="stats">{s.total.toLocaleString()}패턴 · {s.levels}단계</p>
                   <p className="criteria-label">난이도 책정기준</p>
                   <ul className="tags">
                     {t.criteria.map((c) => <li key={c}>{c}</li>)}
