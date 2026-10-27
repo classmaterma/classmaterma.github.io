@@ -75,9 +75,19 @@ export default function TableView({ symbol, levels }: { symbol: string; levels: 
     const ro = new ResizeObserver(update);
     ro.observe(el);
     update();
-    // 외부에서 #6UE20 같은 주소로 들어온 경우
-    if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
-    return () => ro.disconnect();
+    // 외부에서 #6UE20 같은 주소로 들어온 경우. 하이드레이션 직후 라우터가 스크롤을 맨 위로 되돌리고,
+    // 웹 폰트가 늦게 로드되면 행 높이가 바뀌므로 폰트 로드가 끝난 뒤에 이동
+    const id = location.hash && decodeURIComponent(location.hash.slice(1));
+    let cancelled = false;
+    if (id) {
+      document.fonts.ready.then(() => {
+        if (!cancelled) requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ behavior: "instant" }));
+      });
+    }
+    return () => {
+      ro.disconnect();
+      cancelled = true;
+    };
   }, []);
 
   const jump = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
