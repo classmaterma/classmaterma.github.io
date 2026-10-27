@@ -27,7 +27,7 @@ function Home() {
             <span className="title">4키 · 6키 · 8키 BMS 난이도표</span>
           </h1>
           <p className="lead">
-            유이팩은 Qwilight 개발자 Dev Taehui와 협업하여 만들어진 BMS 최초의 6키, 4키 난이도표입니다.
+            유이팩은 Qwilight 개발자 Dev Taehui와 협업하여 만들어진 BMS 최초의 6키, 4키, 8키 난이도표입니다.
           </p>
         </section>
 
