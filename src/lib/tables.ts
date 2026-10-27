@@ -16,7 +16,7 @@ export const TABLES: TableInfo[] = [
     mode: "4k",
     label: "4K",
     keys: 4,
-    criteria: ["4UE1~19: Qwilight Hard Gauge", "4UE20~: 97%"],
+    criteria: ["4UE1~18: Qwilight Hard Gauge", "4UE19~: 97%"],
   },
   {
     slug: "UE",
