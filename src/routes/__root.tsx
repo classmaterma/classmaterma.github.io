@@ -6,7 +6,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "theme-color", content: "#0a0a12" },
+      { name: "theme-color", content: "#ffffff" },
       { title: "U_E 난이도표 | 4키·6키·8키 BMS" },
       { name: "description", content: "Qwilight 전용 BMS 4키·6키·8키 U_E 난이도표." },
     ],

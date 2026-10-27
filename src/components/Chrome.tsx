@@ -10,20 +10,12 @@ export function Arrow() {
   );
 }
 
-export function Lanes({ keys }: { keys: number }) {
-  return (
-    <span className="lanes" aria-hidden="true">
-      {Array.from({ length: keys }, (_, i) => <i key={i} />)}
-    </span>
-  );
-}
-
 // 모든 페이지 공통 상단바. current 는 지금 보고 있는 난이도표 slug
 export function Topbar({ current }: { current?: string }) {
   return (
     <header className="topbar">
       <div className="topbar-inner">
-        <a href="/" className="brand">U<span>_</span>E</a>
+        <a href="/" className="brand">U_E <span>난이도표</span></a>
         <nav aria-label="난이도표">
           {TABLES.map((t) => (
             <a
@@ -35,7 +27,7 @@ export function Topbar({ current }: { current?: string }) {
               {t.label}
             </a>
           ))}
-          <a href={DISCORD_URL} {...ext} className="nav-cta">Discord</a>
+          <a href={DISCORD_URL} {...ext} className="nav-ext">Discord</a>
         </nav>
       </div>
     </header>
@@ -45,9 +37,9 @@ export function Topbar({ current }: { current?: string }) {
 export function Footer() {
   return (
     <footer>
-      <span className="brand">U<span>_</span>E</span>
+      <span>U_E 난이도표</span>
       <p className="credits">
-        <a href={HOMEPAGE_URL} {...ext}>Homepage</a> · <a href={DISCORD_URL} {...ext}>Discord</a>
+        <a href={HOMEPAGE_URL} {...ext}>U_E 홈페이지</a> · <a href={DISCORD_URL} {...ext}>Discord</a>
       </p>
     </footer>
   );
