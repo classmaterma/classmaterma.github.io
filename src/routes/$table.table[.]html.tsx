@@ -7,8 +7,8 @@ import { TABLES, getTable } from "../lib/tables";
 export const Route = createFileRoute("/$table/table.html")({
   loader: async ({ params }) => {
     if (!TABLES.some((t) => t.slug === params.table)) throw notFound();
-    const { info, header, levels, total } = await getTable(params.table);
-    return { info, header: { name: header.name, symbol: header.symbol }, levels, total };
+    const { info, header, levels, total, songs } = await getTable(params.table);
+    return { info, header: { name: header.name, symbol: header.symbol }, levels, total, songs };
   },
   // bmstable 메타 태그: Qwilight·beatoraja 같은 구동기가 이 주소에서 header.json 을 찾습니다. 지우면 안 됩니다.
   head: ({ loaderData }) => ({
@@ -22,7 +22,7 @@ export const Route = createFileRoute("/$table/table.html")({
 });
 
 function TablePage() {
-  const { info, header, levels, total } = Route.useLoaderData();
+  const { info, header, levels, total, songs } = Route.useLoaderData();
   return (
     <>
       <Topbar current={info.slug} />
@@ -31,7 +31,7 @@ function TablePage() {
           <p className="label">{info.label} — Table</p>
           <h1>{header.name}</h1>
           <p className="stats">
-            {total.toLocaleString()}패턴 · {levels.length}단계 · 기준 {info.criteria.join(" / ")}
+            {total.toLocaleString()}패턴 · 약 {songs.toLocaleString()}곡 · {levels.length}단계 · 기준 {info.criteria.join(" / ")}
           </p>
         </section>
         <TableView symbol={header.symbol} levels={levels} />

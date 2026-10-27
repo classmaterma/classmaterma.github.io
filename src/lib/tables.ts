@@ -121,7 +121,24 @@ export async function getTable(slug: string) {
     byLevel.get(lv)!.push(toSong(s));
   }
   const levels: Level[] = [...byLevel].map(([level, songs]) => ({ level, songs }));
-  return { info, header, levels, total: raw.length };
+  return { info, header, levels, total: raw.length, songs: estimateSongs(raw) };
+}
+
+// 패턴 이름 꼬리표: "곡 [6K UE HARD]", "곡 【...】", "곡 -6K Hope-"
+const PATTERN_SUFFIX = /\s*(\[[^\]]*\]|【[^】]*】|\s-[^-]+-)\s*$/;
+
+// score.json 에는 곡 구분 값이 없어서, 제목에서 패턴 이름을 떼고 같은 제목끼리 묶어 곡 수를 추정합니다.
+// 아티스트는 표기가 제각각이라 기준에서 빼고, "(Short Cut)" 같은 괄호는 다른 버전으로 보고 남겨 둡니다.
+// 화면에는 10 단위로 반올림해서 "약 N곡"으로 보여줍니다.
+function estimateSongs(raw: RawSong[]) {
+  const titles = new Set(
+    raw.map((s) => {
+      let t = s.title.trim();
+      while (PATTERN_SUFFIX.test(t)) t = t.replace(PATTERN_SUFFIX, "");
+      return t.toLowerCase().replace(/\s+/g, " ");
+    }),
+  );
+  return Math.max(10, Math.round(titles.size / 10) * 10);
 }
 
 function toSong(s: RawSong): Song {
