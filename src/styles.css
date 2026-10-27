@@ -14,7 +14,6 @@
   --grad: linear-gradient(110deg, #ff5cc8 0%, #a17bff 55%, #5ad1ff 100%);
   --sans: "Wanted Sans Variable", "Wanted Sans", system-ui, sans-serif;
   --display: "Space Grotesk", var(--sans);
-  --mono: "JetBrains Mono", ui-monospace, monospace;
   --radius: 22px;
   color-scheme: dark;
 }
@@ -111,7 +110,7 @@ main { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
 
 .block { padding: 80px 0 0; }
 .block-head { margin-bottom: 32px; }
-.label { margin: 0 0 8px; font-family: var(--mono); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--c, var(--pink)); }
+.label { margin: 0 0 8px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--c, var(--pink)); }
 h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-spacing: -0.03em; font-weight: 700; }
 
 .grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
@@ -134,7 +133,7 @@ h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-
 
 .mode { margin: 0; font-family: var(--display); font-weight: 700; font-size: clamp(3.2rem, 6vw, 4.4rem); line-height: 1; letter-spacing: -0.06em; color: var(--c); }
 .stretched::after { content: ""; position: absolute; inset: 0; z-index: 1; }
-.stats { margin: 10px 0 0; font-family: var(--mono); font-size: 0.85rem; color: var(--muted); }
+.stats { margin: 10px 0 0; font-variant-numeric: tabular-nums; font-size: 0.85rem; color: var(--muted); }
 .criteria-label { margin: 20px 0 8px; font-size: 0.85rem; color: var(--muted); }
 .tags { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
 .tags li { padding: 5px 10px; border-radius: 8px; background: var(--surface-2); font-size: 0.86rem; font-weight: 500; }
@@ -182,11 +181,11 @@ h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-
   color: var(--text); font: inherit; font-size: 0.95rem;
 }
 .search input::placeholder { color: var(--muted); }
-.hits { font-family: var(--mono); font-size: 0.8rem; color: var(--c); white-space: nowrap; }
+.hits { font-variant-numeric: tabular-nums; font-size: 0.8rem; color: var(--c); white-space: nowrap; }
 .levels { display: flex; flex-wrap: wrap; gap: 6px; }
 .levels a {
   flex: none; min-width: 36px; padding: 4px 10px; border-radius: 8px; text-align: center;
-  font-family: var(--mono); font-size: 0.8rem; font-weight: 600; color: var(--muted);
+  font-variant-numeric: tabular-nums; font-size: 0.8rem; font-weight: 600; color: var(--muted);
   background: var(--surface); border: 1px solid var(--line);
   transition: color 0.15s, border-color 0.15s;
 }
@@ -195,7 +194,7 @@ h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-
 .level { padding-top: 28px; }
 .level h2 { display: flex; align-items: baseline; gap: 12px; margin: 0 0 10px; font-size: 1.3rem; }
 .level-name { font-family: var(--display); color: var(--c); letter-spacing: -0.02em; }
-.level-count { font-family: var(--mono); font-size: 0.8rem; font-weight: 500; color: var(--muted); }
+.level-count { font-variant-numeric: tabular-nums; font-size: 0.8rem; font-weight: 500; color: var(--muted); }
 
 .rows {
   list-style: none; padding: 0; margin: 0;
@@ -213,7 +212,7 @@ h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-
 .row:first-child { border-top: 0; }
 .row:hover { background: var(--surface-2); }
 .row.state1 { box-shadow: inset 3px 0 0 var(--pink); background: rgba(255, 92, 200, 0.06); }
-.row-lv { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+.row-lv { font-variant-numeric: tabular-nums; font-size: 0.78rem; color: var(--muted); }
 .row-main { display: flex; flex-direction: column; min-width: 0; }
 .row-title { font-weight: 600; overflow-wrap: anywhere; }
 .row-title:hover { color: var(--c); }
