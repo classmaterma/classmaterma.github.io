@@ -17,6 +17,10 @@ export const TABLES: TableInfo[] = [
     label: "4K",
     keys: 4,
     criteria: ["4UE1~18: Qwilight Hard Gauge", "4UE19~: 97%"],
+    extra: {
+      label: "스프레드시트",
+      url: "https://docs.google.com/spreadsheets/d/1Vjeqo8a6WF4QoscNCot3PszeWCpXIaN2B92kse0BoH0/edit?usp=sharing",
+    },
   },
   {
     slug: "UE",
@@ -24,10 +28,6 @@ export const TABLES: TableInfo[] = [
     label: "6K",
     keys: 6,
     criteria: ["Qwilight Hard Gauge"],
-    extra: {
-      label: "스프레드시트",
-      url: "https://docs.google.com/spreadsheets/d/1Vjeqo8a6WF4QoscNCot3PszeWCpXIaN2B92kse0BoH0/edit?usp=sharing",
-    },
   },
   {
     slug: "8UE",
