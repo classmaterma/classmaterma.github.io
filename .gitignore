@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.output/
+.tanstack/
+src/routeTree.gen.ts
+
+# scripts/sync-data.mjs 가 빌드 때 복사하는 데이터
+public/UE/
+public/4UE/
+public/8UE/
+public/UE.zip
